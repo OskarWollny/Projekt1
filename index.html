@@ -6,154 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Menu</title>
-    <style>
-
-        * { 
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body{
-            font-family: 'Courier New', Courier, monospace;
-        }
-        #navbar {
-            height: 50px;
-            display: flex;
-            background-color: #b0b8c1	;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        #navbar .logo{
-            font-weight: bold;
-            font-size: larger;
-            margin: 0 16px;
-        }
-
-        #navbar ul {
-            display: flex;
-            list-style: none;
-            align-items: center;
-        }
-
-        #navbar ul li a {
-            padding: 0.75rem;
-            margin: 0 0.25rem;
-            text-decoration: none;
-            color: black;
-        }
-
-        #navbar ul li a:hover {
-            background-color: #7a828f;
-
-        }
-
-        #showcase {
-            background: #333 url(img/hodinky.jpg)no-repeat center center/cover;
-            height: 100vh;
-            color: #fff;
-
-        }
-        #showcase .showcase-content {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-            padding: 0 2rem;
-            background-color: rgba(0,0,0,0.5);
-        }
-        
-        #what .items {
-            display: flex;
-            padding: 1rem;
-            
-        }
-
-        #what .item {
-            text-align: center;
-            padding: 1rem;
-            flex: 1;
-            flex-direction: row;
-        }
-
-        #what .items .item i {
-            background: #b0b8c1;
-            padding: 1rem;
-            border-radius: 50%;
-            margin-bottom: 1rem;
-        }
-
-        body{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-
-        .l-heading{
-            font-size: 4rem;
-            margin-bottom: 0.75rem;
-            line-height: 1.1;
-
-        }
-
-        .lead{
-            font-size: 1.3rem;
-            margin-bottom: 2rem;
-        }
-
-        .bth{
-            display: inline-block;
-            color: #b0b8c1;
-            background-color: #3c4550;
-            padding: 1rem 2rem;
-            border: none;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .bth:hover{
-            background-color: #7a828f;
-        }
-
-        
-
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            padding: 0 2rem;
-            overflow: hidden;
-        }
-
-        .text-center {  
-            text-align: center;
-        }
-
-        .m-heading {
-            font-size: 2rem;
-            margin-bottom: 0.75rem;
-            line-height: 1.1;
-        }
-
-        .py-1 {
-            padding: 1.5rem 0;
-        }
-
-        .py-2 {
-            padding: 2rem 0;
-        }
-
-        .py-3 {
-            padding: 3rem 0;
-        }
-
-        
-    </style>
+    <link rel="stylesheet" href="./style.css">
+    
 </head>
 
 <body>
-    <nav id="navbar">
+    <nav id="navbar" class="navbar">
         <div class="logo">
             <i class="fa-regular fa-clock"> LUX Hodinky</i>
         </div>
@@ -162,24 +20,19 @@
             <li><a href="#form">Form</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-    
-    
-    
-
-
-
 
     </nav>
+
 
     
     <div id="showcase">
         <div class="showcase-content">
             <h1 class="l-heading">Luxusní Hodinky</h1>
             <p class="lead">Naše firma Vám nabízí luxusní hodinky.</p>
-            <a href="" class="bth">Mám zájem</a>
+            <a href="chci_vedet_vic.html" class="bth">Mám zájem</a>
         </div>
     </div>
-    <section id="what" class="bg-light py-1">
+    <section id="what" class="bg-light py-1 text-down">
         <div class="container">
             <h2 class="m-heading text-center">
                 <span class="text-primary">Co</span>
@@ -205,6 +58,9 @@
                         <p>Zajišťujeme, že ke každému našemu zákazníkovi se chováme s respektem a úctou.</p>
                     </div>
         </div>
+    </section>
+    <section>
+        
     </section>
     <!-- Photo by <a href="https://unsplash.com/@johntorcasio?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">John Torcasio</a> on <a href="https://unsplash.com/photos/silver-colored-rolex-analog-watch-reading-at-155-133Vq4tTpBQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
 </body>
